@@ -18,6 +18,14 @@ class AuthenticationSuccessListener
             return;
         }
 
+        $tokenParts = explode(".", $data['token']);
+        // $tokenHeader = base64_decode($tokenParts[0]);
+        $tokenPayload = base64_decode($tokenParts[1]);
+        // $jwtHeader = json_decode($tokenHeader);
+        $jwtPayload = json_decode($tokenPayload);
+
+        $data['payload'] = $jwtPayload;
+
         $data['userdata'] = array(
             'roles' => $user->getRoles(),
             'id' => $user->getId(),

@@ -283,6 +283,9 @@
     "symfony/polyfill-php73": {
         "version": "v1.17.0"
     },
+    "symfony/polyfill-php80": {
+        "version": "v1.17.0"
+    },
     "symfony/property-access": {
         "version": "v4.4.8"
     },
@@ -383,6 +386,9 @@
             "./templates/base.html.twig"
         ]
     },
+    "symfony/twig-pack": {
+        "version": "v1.0.0"
+    },
     "symfony/validator": {
         "version": "4.3",
         "recipe": {
@@ -408,11 +414,20 @@
     "symfony/yaml": {
         "version": "v4.4.8"
     },
+    "tecnickcom/tcpdf": {
+        "version": "6.3.5"
+    },
+    "twig/extra-bundle": {
+        "version": "v3.0.3"
+    },
     "twig/twig": {
         "version": "v3.0.3"
     },
     "webmozart/assert": {
         "version": "1.8.0"
+    },
+    "whiteoctober/tcpdf-bundle": {
+        "version": "1.1.2"
     },
     "willdurand/negotiation": {
         "version": "v2.3.1"
